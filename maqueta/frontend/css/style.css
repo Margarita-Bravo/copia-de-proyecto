@@ -1,0 +1,309 @@
+:root {
+    ---color-principal: #060818;
+    ---color-secundario: #F5C057;
+    ---color-card: #FFFFFF;
+    ---color-background: #efefef;
+}
+
+h1,h2,h3,h4,img {
+    margin: 0;
+}
+
+h5 {
+    font-size: 1em;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+article, div, footer, header, main, nav, section,span, figure{
+    align-items: stretch;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.contact-textarea {
+    resize: none;
+    height: 10em;
+}
+
+body {
+    background-color: var(---color-background);
+    overflow-x: hidden;
+}
+
+.servicio, .sucursales, .contacto-about {
+    padding: 1rem;
+        
+    }
+
+/*Home Client*/
+    /*header */
+header {
+    background-color: var(---color-principal);
+}
+
+.logo {
+    height: 1.5em;
+}
+
+.nav-link {
+    color: var(---color-card);
+}
+
+.nav-link:hover {
+    color: var(---color-secundario);
+}
+
+.login-register {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 0;
+}
+
+.btn-login, .btn-register {
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9em;
+    min-width: 5.5em;
+}
+
+.btn-login {
+    background-color: var(---color-secundario);
+    color: var(---color-principal);
+}
+
+.btn-register {
+    background-color: var(---color-principal);
+    color: var(---color-secundario);
+}
+
+.navbar-toggler-icon {
+    background-color: var(---color-secundario);
+}
+
+.active {
+    color: var(---color-secundario)
+}
+.con-logo a img {
+    height: 50px;
+}
+.presentacion {
+    width: 100%;
+    height: 20em;
+    background-color: #06089000;
+}
+
+.presentacion img {
+    width: 100%;
+    height: 100%;
+}
+
+.presentacion-text{
+    position: absolute;
+    top: 35%;
+    bottom: 0;
+    right:0;
+    left: 0;
+    text-align: center;
+}
+
+.presentacion-text h3{
+    font-size: 4em;
+    color: var(---color-principal);
+    font-weight: 600;
+}
+    /*main*/
+    main {
+        min-height: 100vh;
+    }
+
+    /* Ofrecimiento */
+    .ofrecimiento {
+        width: 100%;
+
+    }
+    .con-ofreci, .card-ofreci {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .con-ofreci {
+        justify-content: space-between;
+        background-color: var(---color-principal);
+    }
+
+    .card-ofreci {
+        justify-content: center;
+        align-items: center;
+        gap: 0.5em;
+        background-color: var(---color-principal);
+        color: var(---color-card);
+        border-radius: 5px;
+        padding: 0.5em;
+    }
+
+    .card-ofreci img {
+        width: 10em;
+        max-height: 5em;
+    }
+
+    /*Servicio*/
+    
+    .con-servicio {
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .card-servicio {
+        display: flex;
+        background-color: var(---color-card);
+        padding: 1em;
+        min-height: 4em;
+        border-radius: 10px;
+        color: var(---color-principal);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        cursor: pointer;
+        min-width: 17em;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 5px;
+    }
+
+    
+
+    .card-servicio:hover {
+        transform: scale(1.1);
+    }
+
+    .card-servicio img {
+        max-width: 13em;
+
+    }
+     
+    aside { 
+    width:25%;
+    background-color:var(---color-principal);
+    color:white;
+    padding: 5px;
+    margin:4px;
+    float:right;
+    height:343px;
+    justify-content:center;
+    display: inline-table;
+
+    }
+    
+    /*Contacto-About*/
+    .contacto-about {
+        display: flex;
+        
+        gap: 1rem;
+    }
+    .contacto, .about {
+        width: 50%;
+    }
+    .contacto form {
+        display: flex;
+        flex-direction: column;
+        gap: 0.2rem;
+    }
+
+    .contacto form button {
+        background-color: var(---color-principal);
+        color: var(---color-card);
+    }
+    /*footer*/
+
+    footer {
+        width: 100%;
+        background-color: var(---color-principal);
+        padding: 1.5em;
+    }
+
+    .con-footer {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: var(---color-card)
+    }
+
+    @media screen and (max-width: 880px) {
+        body {
+            font-size: 14px;
+        }
+    }
+
+    @media screen and (max-width: 800px) {
+        body {
+            font-size: 13px;
+        }
+
+        aside {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 750px) {
+        body {
+            font-size: 12px;
+        }
+    }
+
+
+    @media screen and (max-width: 680px) {
+        body {
+            font-size: 10px;
+        }
+
+        .contacto-about {
+            flex-wrap: wrap;
+        }
+        .contacto, .about {
+            width: 100%;
+        }
+        .card-servicio {
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+        body {
+            font-size: 9px;
+        }
+        .card-ofreci img {
+            width: 5em;
+        }
+        }
+
+    /**REGISTER**/
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 1em;
+        background-color: var(---color-card);
+        gap: 0.5em;
+    }
+
+    .btn-register {
+        background-color: var(---color-principal)
+    }
+    .con-form {
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background-image: url("../image/taller.png");
+    }
+    

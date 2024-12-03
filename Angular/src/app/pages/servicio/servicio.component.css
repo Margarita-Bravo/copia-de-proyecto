@@ -1,0 +1,30 @@
+.container{
+    margin-top:25px;
+}
+
+form{
+    margin-top: 15px;
+}
+
+.btn{
+    margin-top: 15px;
+}
+
+.btn {
+    background-color: #F5C057;
+}
+.btn:hover{
+    color: #060818;
+}
+
+.card{
+    background-color: #060818;
+    color: #FFFFFF;
+    
+}
+
+li{
+    background-color: #060818;
+    color: #FFFFFF;
+    
+}

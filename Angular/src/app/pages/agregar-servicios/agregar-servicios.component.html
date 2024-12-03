@@ -1,0 +1,28 @@
+<h4>Cargar Servicio</h4>
+
+<form method="post" class="col-6"  enctype="multipart/form-data">
+    
+<div class="mb-3" ngForm="form" (change)="guardarNombre($event)">
+    <label  class="form-label">Nombre del Servicio</label>
+    <input type="text" class="form-control" name="nombre" >
+  </div>
+
+  <div class="mb-3" (change)="enviarFoto($event)">
+    <label for="formFile" class="form-label">Imagen</label>
+    <input class="form-control" type="file" name="imagen"  >
+  </div>
+
+  <div class="mb-3" (change)="guardarDescripcion($event)">
+    <label  class="form-label">Descripción</label>
+    <textarea class="form-control"  rows="3" name="descripcion" ></textarea>
+  </div>
+
+  <div class="mb-3" (change)="guardarPrecio($event)">
+    <label  class="form-label">Precio</label>
+    <input type="text" class="form-control" name="precio" >
+  </div>
+
+
+  <button class="btn" (click)="create()">Cargar Servicio</button>
+
+</form>

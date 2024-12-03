@@ -1,0 +1,29 @@
+import mysql.connector
+
+def insert_varibles_into_cliente(cliente_id, user_id):
+    try:
+        connection = mysql.connector.connect(host='localhost',database='service_automotor',user='root',password='1234')
+        cursor = connection.cursor()
+        mySql_insert_query = """INSERT INTO cliente (cliente_id, user_id) VALUES (%s, %s) """
+        record = (cliente_id, user_id)
+        cursor.execute(mySql_insert_query, record)
+        
+        
+        connection.commit()
+        print(cursor.rowcount, "Record inserted successfully into cliente table")
+    except mysql.connector.Error as error:
+        print("Failed to insert record into MySQL table {}".format(error))
+    finally:
+        if connection.is_connected():
+            cursor.close()
+            connection.close()
+            print("MySQL connection is closed")
+
+
+
+respuesta = int(input("Ingrese la cantidad de clientes que desea insertar en la BD: "))
+for i in range(respuesta):
+    cliente_id = int(input("Ingrese el id del cliente: "))
+    user_id = input("Ingrese el id de usuario del cliente: ")
+    insert_varibles_into_cliente(cliente_id, user_id)
+    print("*************************************************")

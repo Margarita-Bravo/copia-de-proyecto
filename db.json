@@ -1,0 +1,179 @@
+{
+  "servicios":[
+    {
+      "id":1,
+      "nombre":"CHAPA Y PINTURA",
+      "precio":"20.000",
+      "descripcion":"Contamos con un personal altamente calificados para realizar el servicio de Chapa y pintura de tu vehiculo. Trabajamos tambien con cabinas de pintura y colores originales.",
+      "img":"/assets/pagina/pintura.jpg"
+
+    },
+    {
+      "id":2,
+      "nombre":"COCHES HÍBRIDOS",
+      "precio":"25.000",
+      "descripcion":"En nuestros talleres nos hemos adaptado a nuestro tiempo, y es por ello que también ofrecemos un servicio de reparación y mantenimiento a los coches híbridos; no solo a los convencionales.",
+      "img":"/assets/pagina/service.png"
+
+    },
+    {
+      "id":3,
+      "nombre":"MANTENIMIENTO INTEGRAL",
+      "precio":"25.000",
+      "descripcion":"Desde cambio de aceites, filtros, pastillas o discos de freno hasta distribuciones, correas... Sea cual sea los cuidados de tu vehículo, le daremos un servicio completo de calidad",
+      "img":"/assets/pagina/reparacion.jpg"
+
+    },{
+      "id":4,
+      "nombre":"DIAGNOSIS",
+      "precio":"20.000",
+      "descripcion":"Para circular con seguridad es fundamental realizar una diagnosis al vehículo y verificar que cumple los requisitos mínimos de seguridad",
+      "img":"/assets/pagina/diagnosis.JPEG"
+
+    },{
+      "id":5,
+      "nombre":"MECÁNICA EN GENERAL",
+      "precio":"25.000",
+      "descripcion":"Contamos con el mejor servicio técnico especializado en climatización de automotores y calefacción.",
+      "img":"/assets/pagina/mecanica.jpg"
+
+    },
+    {
+      "id":6,
+      "nombre":"NEUMATICOS",
+      "precio":"22.000",
+      "descripcion":"Contamos con el mejor servicio técnico especializado en climatización de automotores y calefacción.",
+      "img":"/assets/pagina/neumatico.jpg"
+
+    },
+    {
+      "id":7,
+      "nombre":"ELECTRÓNICA DEL VEHÍCULO",
+      "precio":"20.000",
+      "descripcion":"Contamos con el mejor servicio técnico especializado en climatización de automotores y calefacción.",
+      "img":"/assets/pagina/electronica.png"
+
+    },
+    {
+      "id":8,
+      "nombre":"INYECIÓN DEL VEHÍCULO",
+      "precio":"20.000",
+      "descripcion":"Contamos con el mejor servicio técnico especializado en climatización de automotores y calefacción.",
+      "img":"/assets/pagina/inyeccion.jpg"
+
+    },
+    {
+      "id":9,
+      "nombre":"CLIMATIZACIÓN",
+      "precio":"21.000",
+      "descripcion":"Contamos con el mejor servicio técnico especializado en climatización de automotores y calefacción.",
+      "img":"/assets/pagina/clima.jpg"
+
+    },
+    {
+      "id":10,
+      "nombre":"ELECTRICIDAD DEL VEHÍCULO",
+      "precio":"20.000",
+      "descripcion":"Somos especialistas en el diagnóstico de las averías eléctricas y nuestro objetivo es ofrecer la máxima garantía en todas nuestras reparaciones.",
+      "img":"/assets/pagina/electricidad.png"
+
+    }
+
+
+
+
+  ],
+
+  "Productos":[
+    {
+      "id":1,
+      "nombre":"Aceite Shell 5w30 4lts",
+      "cantidad":"45",
+      "precio":13500,
+      "idCategoria":1,
+      "descripcion":"Aceite 100 % sintetico. Shell Helix Ultra emplea la exclusiva tegnologia de limpieza activa para permitir a los motores de alto rendimiento mantener su eficiencia , evitando perdidas de potencia y desgaste . Reduce la fricción , mejorando el ahorro de combustible. Especificaciones, Aprobaciones & Recomendaciones API SL/CF · ACEA A3/B3, A3/B4 · BMW LL-01 · MB Aprobación 229.5, 226.5 · VW 502.00, 505.00 · Renault RN 0700, 0710 · Cumple con los requerimientos para API SN/CF",
+      "img":"../../../assets/productos/img01.png"
+    },
+    {
+      "id":2,
+      "nombre":"Elaion F50 5w-40 X 4 Lt",
+      "cantidad":"100",
+      "precio":16900,
+      "idCategoria":1,
+      "descripcion":"ACEITE YPF, ELAION F50 5W40, SINTETICO, API SN / CF, ACEA C3, Lubricante especialmente formulado para cubrir la más alta exigencia de la industria automotriz. Concebido para motores que posean sistemas de post-tratamiento de gases de escape de última tecnología, tales como los DPF (Diesel Particulate Filter) para los automóviles Diesel y los TWC (Three-Way Catalyst) para los motores nafteros.",
+      "img":"../../../assets/productos/img02.png"
+    },
+    {
+      "id":3,
+      "nombre":"Kit De Distribucion Bosch Vw Gol Polo Saveiro 1.9",
+      "cantidad":"5",
+      "precio":39900,
+      "idCategoria":4,
+      "descripcion":"",
+      "img":"../../../assets/productos/img03.png"
+    },
+    {
+      "id":4,
+      "nombre":"Filtro De Aire Peugeot 206 306 Citroen Picasso 1.4 1.6 2.0hd",
+      "cantidad":"10",
+      "precio":13500,
+      "idCategoria":5,
+      "descripcion":"",
+      "img":"../../../assets/productos/img04.png"
+    },
+    {
+      "id":5,
+      "nombre":"Filtro De Aceite Renault Kangoo",
+      "cantidad":"5",
+      "precio":2000,
+      "idCategoria":1,
+      "descripcion":"FILTRO DE ACEITE Renault Kangoo 1.5 Dci Stepway",
+      "img":"../../../assets/productos/img05.png"
+    },
+    {
+      "id":6,
+      "nombre":"Batería Moura M-20gd 12x65 D",
+      "cantidad":"100",
+      "precio":29000,
+      "idCategoria":3,
+      "descripcion":"Todas las baterías Moura son libre de mantenimiento, con caja sellada y pastillas anti-flama. Todas las baterías Moura tienen tecnología Estaño - Plomo AG12 con rejilla laminada expandida",
+      "img":"../../../assets/productos/img06.png"
+    },
+    {
+      "id":7,
+      "nombre":"Lampara H4 12v 60/55w",
+      "cantidad":"5",
+      "precio":2000,
+      "idCategoria":2,
+      "descripcion":"Lampara Halogena H4 12V 60/55W Pt43 Standard (X1",
+      "img":"../../../assets/productos/img07.png"
+    },
+    {
+      "id":8,
+      "nombre":"Kit Cree Led H4",
+      "cantidad":"10",
+      "precio":20000,
+      "idCategoria":2,
+      "descripcion":"Kit Cree Led Canbus H4 Alta Gama No Da Error Chip Csp Auto.",
+      "img":"../../../assets/productos/img08.png"
+    }
+
+  ],
+  "Categorias":[
+    {
+      "id":1,
+      "tipoCategoria":"Fluidos"
+      
+    },
+    {
+      "id":2,
+      "tipoCategoria":"Luces"
+      
+    },
+    {
+      "id":3,
+      "tipoCategoria":"Baterias"
+      
+    }
+  ]
+}

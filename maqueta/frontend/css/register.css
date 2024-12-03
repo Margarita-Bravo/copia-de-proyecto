@@ -1,0 +1,9 @@
+form{
+    max-width: 500px;
+}
+
+.con-form {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}

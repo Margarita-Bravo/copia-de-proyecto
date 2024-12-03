@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header >
+        <nav class="navbar navbar-expand-lg bg-blue">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img class="logo" src="./image/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./page/servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./page/sucursales.html">Sucursales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#acerca-de">Acerca de</a>
+                        </li>
+                        <li class="nav-item login-register">
+                            <a class="nav-link" href="./login.html"><button class="btn-login">Login</button></a>
+                            
+                            <a class="nav-link" href="./register.html"><button class="btn-register">Register</button></a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+    </header>
+
+    <main>
+        <section class="presentacion">
+            <img src="./image/taller.png" alt="">
+            <div class="presentacion-text">
+                <h3>
+                    Servicio del automotor
+                </h3>
+            </div>
+        </section>
+            
+        <section class="ofrecimiento">
+            <div class="con-ofreci">
+                    <section class="card-ofreci">
+                        <h5>Diagnóstico completo</h5>
+                        <img src="image/diagnostico.jpeg" alt="Servicio de diagnóstico computarizado del vehículo acompañado de informe sin cargo." />
+                        
+                    </section>
+                    <section class="card-ofreci">
+                        <h5>Asesoramiento profesional</h5>
+                        <img src="image/asesoramiento.jpg" alt="Asesoramiento especializado orientado a maximizar la vida útil de los vehículos, tanto livianos como utilitarios." />
+                    </section>
+                    <section class="card-ofreci">
+                        <h5>Garantía de calidad</h5>
+                        <img src="image/garantiadeservicio.jpg" alt="Productos y servicios de máxima calidad, homologados por fabricantes y terminales automotrices." />
+                    </section>
+                </div>
+        </section>
+        
+
+        <section id="servicios" class="servicio">
+            <h4>
+                Servicios
+            </h4>
+
+            <div class="con-servicio">
+                <div class="card-servicio">
+                    <h5>
+                        Lavado
+                    </h5>
+                </div>
+
+                <div class="card-servicio">
+                    <h5>
+                        Service
+                    </h5>
+                </div>
+
+                <div class="card-servicio">
+                    <h5>
+                        Reparaciones y mantenimiento
+                    </h5>
+                </div>
+            </div>
+        </section>
+        
+        <aside>
+                <div style="color:#3939c0">
+                    <h3> Cuidados del vehículo - Consejos y sugerencias</h3> 
+                </div>
+                <p>
+                </p>
+                <p> Es importante que se realice un mantenimiento regular para detectar cualquier problema a tiempo, anticipándose así, a una parada intempestiva del vehículo y a futuras reparaciones costosas.</p>
+                <p>
+                </p>
+                <p> Ultima entrada visitada</p>
+                <a>https://www.axionenergy.com/Paginas/Claves-consejos-mantener-auto.aspx</a>
+        </aside>
+                        
+        <section class="contacto-about">
+            <div id="contacto" class="contacto">
+                <h4>
+                    Contacto
+                </h4>
+    
+                <form class="col-md-12 needs-validation" novalidate>
+                    <div class="col-12">
+                    <label for="validationName" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" name="nombre" id="validationNombre" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+        
+                    <div class="invalid-feedback">
+                    
+                    </div>
+                    </div>
+        
+                <div class="col-12">
+                    <label for="validationEmail" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="validationEmail" aria-describedby="inputGroupPrepend" placeholder="juanperez@gmail.com" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+        
+        
+                    <div class="invalid-feedback">
+                        Please choose a email.
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <label for="validationMessage" class="form-label">Mensaje</label>
+                    <input type="textarea" class="form-control" id="validationEmail" aria-describedby="inputGroupPrepend" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+        
+        
+                    <div class="invalid-feedback">
+                        Por favor, ecribe un mensaje.
+                    </div>
+                </div>
+        
+                <div class="col-12">
+                    <button class="col-12 btn btn-primary btn-register" type="submit">Enviar</button>
+                </div>
+            </form>
+            </div>
+
+            <div class="about" id="acerca-de">
+                <h4>Acerca de</h4>
+                <div>
+                    <p>
+                        Somos una empresa lider en el cuidado de tu vehículo. Con mas de 20 años de experiencia contamos con una amplia red de sucursales en todo el país.
+                        
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="con-footer">
+            <div>
+                <a href="">
+                    <img class="logo" src="./image/logo.png" alt="logo">
+                </a>
+                
+            </div>
+
+            <div>
+                <h5>
+                    Servicio
+                </h5>
+                <p>Reparacion y mantenimiento</p>
+                <p>Lavado</p>
+                <p>Service</p>
+            </div>
+            <div>
+                <h5>
+                    Susursales
+                </h5>
+                <p>San Martin</p>
+                <p>Martínez</p>
+                <p>Acassuso</p>
+            </div>
+
+            <div>
+                <h5>
+                    Contacto
+                </h5>
+                <p>service@gmail.com</p>
+                <p>+593816900309</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
